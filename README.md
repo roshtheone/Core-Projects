@@ -7,7 +7,7 @@ Tiwanex is a tech-forward organisation focused on helping aspiring developers, d
 ## Live Demo
 
 You can view the live version of this site here:  
-**[Live Demo Coming Soon]**
+https://roshtheone.github.io/Core-Projects/Tiwanex.html
 
 ---
 
