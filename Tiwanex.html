@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiwanex – Engineering Tomorrow</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #e0e7ff 0%, #f0fdfa 100%);
+        }
+        .hero-gradient {
+            background: linear-gradient(90deg, #6366f1 0%, #06b6d4 100%);
+        }
+        .section-gradient {
+            background: linear-gradient(120deg, #f0abfc 0%, #a5b4fc 100%);
+        }
+        .footer-gradient {
+            background: linear-gradient(90deg, #6366f1 0%, #f472b6 100%);
+        }
+    </style>
+</head>
+<body class="font-sans min-h-screen flex flex-col">
+    <header class="bg-white bg-opacity-80 shadow p-4 flex justify-between items-center sticky top-0 z-10">
+        <h1 class="text-2xl font-extrabold text-indigo-700 tracking-tight">Tiwanex</h1>
+        <nav>
+            <a href="#about" class="text-gray-700 hover:text-indigo-500 mx-3 font-medium">About</a>
+            <a href="#opportunities" class="text-gray-700 hover:text-indigo-500 mx-3 font-medium">Opportunities</a>
+            <a href="#community" class="text-gray-700 hover:text-indigo-500 mx-3 font-medium">Community</a>
+            <a href="https://www.linkedin.com/company/tiwanex-dev" target="_blank" rel="noopener" class="text-blue-700 hover:text-blue-900 mx-3 font-medium flex items-center inline-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" class="inline h-5 w-5 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm15.5 11.268h-3v-5.604c0-1.337-.025-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.841-1.563 3.039 0 3.6 2.001 3.6 4.601v5.595z"/></svg>
+                LinkedIn
+            </a>
+        </nav>
+    </header>
+
+    <main class="flex-1">
+        <!-- Hero Section -->
+        <section class="hero-gradient text-white py-20 px-6 rounded-b-3xl shadow-lg text-center">
+            <h2 class="text-5xl font-extrabold mb-4 drop-shadow-lg">Engineering Tomorrow. Everywhere.</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Tiwanex is a tech-forward organization helping aspiring developers gain real-world experience beyond traditional academic learning.</p>
+            <a href="#opportunities" class="inline-block bg-white text-indigo-700 font-bold px-8 py-3 rounded-full shadow-lg hover:bg-indigo-100 transition">Explore Opportunities</a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-gradient mt-16 py-14 px-6 rounded-3xl max-w-4xl mx-auto shadow-lg">
+            <h3 class="text-3xl font-bold text-indigo-800 mb-4">Why Tiwanex?</h3>
+            <p class="text-gray-800 text-lg mb-4">
+                Many students and self-taught coders get stuck in endless courses, never building something real. Tiwanex fills that gap by offering hands-on projects, internships, and resources that help you grow into a confident, capable professional.
+            </p>
+            <ul class="list-disc list-inside text-gray-900 space-y-2">
+                <li>Real-world project opportunities</li>
+                <li>Mentorship from experienced engineers</li>
+                <li>Internships and portfolio-building resources</li>
+                <li>Support for all backgrounds and skill levels</li>
+            </ul>
+        </section>
+
+        <!-- Opportunities Section -->
+        <section id="opportunities" class="mt-16 py-14 px-6 bg-gradient-to-r from-cyan-100 via-indigo-100 to-pink-100 rounded-3xl max-w-4xl mx-auto shadow-lg">
+            <h3 class="text-3xl font-bold text-indigo-800 mb-4">Fields We Support</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-800">
+                <ul class="space-y-2">
+                    <li>• Frontend &amp; Backend Engineering</li>
+                    <li>• Full Stack Development</li>
+                    <li>• Cybersecurity</li>
+                    <li>• UI/UX Design</li>
+                    <li>• AI &amp; Machine Learning</li>
+                </ul>
+                <ul class="space-y-2">
+                    <li>• Cloud Computing &amp; DevOps</li>
+                    <li>• Database Engineering</li>
+                    <li>• Mobile Development</li>
+                    <li>• Open Source Collaboration</li>
+                    <li>• And more!</li>
+                </ul>
+            </div>
+            <p class="mt-6 text-gray-700 text-lg">Everything we do is designed to help you build a meaningful portfolio and gain experience that matters in the tech industry.</p>
+        </section>
+
+        <!-- Community Section -->
+        <section id="community" class="mt-16 py-14 px-6 section-gradient rounded-3xl max-w-4xl mx-auto shadow-lg">
+            <h3 class="text-3xl font-bold text-indigo-800 mb-4">A Community That Grows Together</h3>
+            <p class="text-gray-800 text-lg mb-4">
+                Join a vibrant community of learners and mentors working together to solve real problems, share knowledge, and support each other's growth.
+            </p>
+            <div class="flex flex-wrap gap-4 justify-center mt-6">
+                <span class="bg-white bg-opacity-80 px-4 py-2 rounded-full text-indigo-700 font-semibold shadow">Mentorship</span>
+                <span class="bg-white bg-opacity-80 px-4 py-2 rounded-full text-cyan-700 font-semibold shadow">Collaboration</span>
+                <span class="bg-white bg-opacity-80 px-4 py-2 rounded-full text-pink-700 font-semibold shadow">Growth</span>
+                <span class="bg-white bg-opacity-80 px-4 py-2 rounded-full text-purple-700 font-semibold shadow">Innovation</span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-gradient mt-20 p-6 text-center text-white text-sm rounded-t-3xl shadow-lg">
+        © 2025 Tiwanex. All rights reserved. | Talent grows when you have the space to build and challenge yourself.
+    </footer>
+</body>
+</html>
